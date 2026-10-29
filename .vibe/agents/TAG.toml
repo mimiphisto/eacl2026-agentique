@@ -1,0 +1,14 @@
+
+agent_type = "subagent"
+
+description = "étiquette les données
+À utiliser après lemmatisation."
+
+enabled_tools = ["read_file", "write_file", "skill"]
+enabled_skills = ["tag.md"]
+
+instructions = "N'utilise que les tags de la liste de tes skills"
+
+[tools.read_file]
+
+denylist = ["*/data/corpus/test_out-of-domain*", "*/data/corpus/test_out-of-domain*"]
