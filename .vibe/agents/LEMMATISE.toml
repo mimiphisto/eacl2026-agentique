@@ -1,0 +1,13 @@
+
+agent_type = "subagent"
+
+description = "Lemmatise les données"
+
+enabled_tools = ["read_file", "write_file"]
+enabled_skills = ["lem.md"]
+
+instructions = "utilise le fichier json de ton skill"
+
+[tools.read_file]
+
+denylist = ["*/data/corpus/test_out-of-domain*", "*/data/corpus/test_out-of-domain*"]
