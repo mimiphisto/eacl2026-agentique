@@ -1,11 +1,11 @@
 
 agent_type = "subagent"
 
-description = "étiquette les données
-À utiliser après lemmatisation."
+description = """étiquette les données
+À utiliser après lemmatisation."""
 
 enabled_tools = ["read_file", "write_file", "skill"]
-enabled_skills = ["tag.md"]
+enabled_skills = ["tag"]
 
 instructions = "N'utilise que les tags de la liste de tes skills"
 
