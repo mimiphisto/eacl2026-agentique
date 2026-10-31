@@ -4,7 +4,7 @@ agent_type = "subagent"
 description = "Lemmatise les données"
 
 enabled_tools = ["read_file", "write_file"]
-enabled_skills = ["lem.md"]
+enabled_skills = ["lem"]
 
 instructions = "utilise le fichier json de ton skill"
 

@@ -1,6 +1,6 @@
 # PRECIS
 
-Ce travail s'inscrut dans une recherches en humanité snumériques sur le grec ancien.
+Ce travail s'inscrit dans une recherches en humanités numériques sur le grec ancien.
 
 Le fichier de données se trouve ici : data/corpus/train/GRC_train.tsv
 
